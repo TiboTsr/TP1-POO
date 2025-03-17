@@ -1,4 +1,4 @@
-package exercice1;
+//package exercice1;
 
 public class Histoire{
 	public static void main(String[] args) {
@@ -17,9 +17,9 @@ public class Histoire{
 		
 		Cowboy cowboy = new Cowboy("Jonesy");
 		Brigand brigand = new Brigand("Midas");
-		Dame dame = new Dame("Renegade Raider", "dorée");
+		Dame dame = new Dame("Renegade Raider", "dorï¿½e");
 		
-		 // Présentation des personnages
+		 // Prï¿½sentation des personnages
         cowboy.sePresenter();
         brigand.sePresenter();
         dame.sePresenter();

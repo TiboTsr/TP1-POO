@@ -1,4 +1,4 @@
-package exercice1;
+//package exercice1;
 
 public class Dame extends Humain{
 
@@ -15,18 +15,18 @@ public class Dame extends Humain{
 	public void seFaireKidnapper(Brigand brigant) {
 		if (estLibre) {
 			estLibre = false;
-			parler(quelEstTonNom() + " Hurle : AAAAAH ! Je suis enlevée par " + brigant.quelEstTonNom() + " !");
+			parler(quelEstTonNom() + " Hurle : AAAAAH ! Je suis enlevï¿½e par " + brigant.quelEstTonNom() + " !");
 		}else {
-			parler(quelEstTonNom() + " Je me suis déja fait enlever ");
+			parler(quelEstTonNom() + " Je me suis dï¿½ja fait enlever ");
 		}
 	}
 
 	 public void seFaireLiberer(Cowboy cowboy) {
 	        if (!estLibre) {
 	            estLibre = true;
-	            parler(" : Merci, " + cowboy.quelEstTonNom() + ", tu es mon héros !");
+	            parler(" : Merci, " + cowboy.quelEstTonNom() + ", tu es mon hï¿½ros !");
 	        } else {
-	            parler(" : Je suis déjà libre !");
+	            parler(" : Je suis dï¿½jï¿½ libre !");
 	        }
 	    }
 	

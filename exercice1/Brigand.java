@@ -1,4 +1,4 @@
-package exercice1;
+//package exercice1;
 
 public class Brigand extends Humain {
 
@@ -8,7 +8,7 @@ public class Brigand extends Humain {
 	
 	public Brigand(String nom) {
 		super(nom);
-		this.look = "méchant";
+		this.look = "mï¿½chant";
 		this.nbDamesEnlevees = 0;
 		this.enPrison = false;
 	}
@@ -25,11 +25,11 @@ public class Brigand extends Humain {
 		if (!enPrison && dame.estLibre()) {
             dame.seFaireKidnapper(Brigand.this);
             nbDamesEnlevees++;
-            parler("Ah ah ! " + dame.quelEstTonNom() + ", tu es mienne désormais !");
+            parler("Ah ah ! " + dame.quelEstTonNom() + ", tu es mienne dï¿½sormais !");
         } else if (enPrison) {
             parler("Je ne peux rien faire, je suis en prison...");
         } else {
-            parler(dame.quelEstTonNom() + " est déjà captive !");
+            parler(dame.quelEstTonNom() + " est dï¿½jï¿½ captive !");
         }
 	}
 	
@@ -37,11 +37,11 @@ public class Brigand extends Humain {
 		if (!enPrison && nbDamesEnlevees > 0) {
 			enPrison = true;
 			nbDamesEnlevees = 0;
-			parler("Damned, je suis fait ! " + cowboy.quelEstTonNom() + ", tu m’as eu !");
+			parler("Damned, je suis fait ! " + cowboy.quelEstTonNom() + ", tu mï¿½as eu !");
 		}else if (enPrison) {
-            parler("Je suis déjà en prison...");
+            parler("Je suis dï¿½jï¿½ en prison...");
 		}else {
-			parler("Je n’ai rien fait de mal, laissez-moi tranquille !");
+			parler("Je nï¿½ai rien fait de mal, laissez-moi tranquille !");
 		}
 	}
 	

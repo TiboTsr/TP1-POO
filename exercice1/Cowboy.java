@@ -1,4 +1,4 @@
-package exercice1;
+//package exercice1;
 
 public class Cowboy extends Humain{
 
@@ -21,14 +21,14 @@ public class Cowboy extends Humain{
 	        if (!dame.estLibre()) {
 	            dame.seFaireLiberer(Cowboy.this);
 	            popularite++;
-	            parler("Ne vous inquiétez pas, " + dame.quelEstTonNom() + ", vous êtes sauvée !");
+	            parler("Ne vous inquiï¿½tez pas, " + dame.quelEstTonNom() + ", vous ï¿½tes sauvï¿½e !");
 	        } else {
-	            parler("Pas besoin de vous libérer, vous êtes déjà libre !");
+	            parler("Pas besoin de vous libï¿½rer, vous ï¿½tes dï¿½jï¿½ libre !");
 	        }
 	    }
 	
 	 public void tirer(Brigand brigand) {
-	        parler("Prends ça, rascal !");
+	        parler("Prends ï¿½a, rascal !");
 	        parler("Le " + adjectif + " " + quelEstTonNom() + " tire sur " + brigand.quelEstTonNom() + ". PAN !");
 	    }
 	 

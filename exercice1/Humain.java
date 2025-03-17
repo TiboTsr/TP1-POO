@@ -1,4 +1,4 @@
-package exercice1;
+//package exercice1;
 
 public class Humain {
 
@@ -20,9 +20,9 @@ public class Humain {
 		this.boissonFavorite = boissonFavorite;
 	}
 
-	//Methode pour se présenter
+	//Methode pour se prï¿½senter
 	public void sePresenter() {
-		parler("Bonjour je m'appelle " + nom + " et ma boisson préférée est le/l' " + boissonFavorite);
+		parler("Bonjour je m'appelle " + nom + " et ma boisson prï¿½fï¿½rï¿½e est le/l' " + boissonFavorite);
 	}
 	
 	//Methode boire
